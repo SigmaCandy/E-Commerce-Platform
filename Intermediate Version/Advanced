@@ -1,0 +1,33 @@
+E-Commerce-Platform/
+│
+├── src/
+│   ├── backend/
+│   │   ├── app.js
+│   │   ├── routes/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   └── middleware/
+│   │
+│   └── frontend/
+│       ├── index.html
+│       ├── css/
+│       ├── js/
+│       └── components/
+│
+├── assets/
+│   ├── images/
+│   ├── videos/
+│   └── icons/
+│
+├── config/
+│   └── database.js
+│
+├── tests/
+├── scripts/
+├── docs/
+│   ├── requirements.md
+│   ├── design.md
+│   └── roadmap.md
+├── README.md
+├── package.json
+└── .gitignore
