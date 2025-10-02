@@ -1,0 +1,35 @@
+E-Commerce-Platform/
+│
+├── docs/                   # Project documentation
+│   ├── requirements.md     # Functional & technical requirements
+│   ├── design.md           # UI/UX design notes
+│   └── roadmap.md          # Development roadmap
+│
+├── src/                    # Source code
+│   ├── backend/            # Server-side code
+│   │   ├── app.js          # Main backend entry
+│   │   ├── routes/         # API routes
+│   │   ├── models/         # Database models
+│   │   └── controllers/    # Business logic
+│   │
+│   └── frontend/           # Client-side code
+│       ├── index.html
+│       ├── css/
+│       ├── js/
+│       └── components/
+│
+├── assets/                 # Images, videos, icons
+│   ├── images/
+│   ├── videos/
+│   └── icons/
+│
+├── tests/                  # Unit & integration tests
+│
+├── config/                 # Configuration files (DB, environment)
+│   └── config.js
+│
+├── scripts/                # Automation scripts, setup scripts
+│
+├── .gitignore              # Git ignore file
+├── README.md               # Project overview
+└── package.json            # Dependencies & scripts (if Node.js)
