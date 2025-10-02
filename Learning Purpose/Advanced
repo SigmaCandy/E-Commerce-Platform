@@ -1,0 +1,13 @@
+E-Commerce-Platform/
+│
+├── src/
+│   ├── index.html
+│   ├── css/
+│   └── js/
+│
+├── assets/
+│   ├── images/
+│   └── icons/
+│
+├── README.md
+└── .gitignore
