@@ -1,0 +1,45 @@
+E-Commerce-Platform/
+│
+├── apps/
+│   ├── api/                 # Backend microservice for APIs
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── middleware/
+│   │   └── app.js
+│   │
+│   ├── web/                 # Frontend SPA (React / Vue / Angular)
+│   │   ├── public/
+│   │   ├── src/
+│   │   │   ├── components/
+│   │   │   ├── pages/
+│   │   │   ├── services/    # API calls
+│   │   │   └── styles/
+│   │   └── package.json
+│   │
+│   └── admin/               # Admin dashboard (optional)
+│       ├── src/
+│       └── package.json
+│
+├── services/                # Optional: separate microservices
+│
+├── config/                  # Global config (env, DB, keys)
+│
+├── scripts/                 # Deployment / automation scripts
+│
+├── tests/                   # Unit & integration tests
+│
+├── docs/                    # Documentation
+│   ├── requirements.md
+│   ├── architecture.md
+│   ├── api-docs.md
+│   └── roadmap.md
+│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── videos/
+│
+├── README.md
+├── package.json
+└── .gitignore
